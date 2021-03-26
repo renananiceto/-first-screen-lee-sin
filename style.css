@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DotGothic16', sans-serif;
+    font-weight: bolder;
+}
+.redes {
+    display: flex;
+    justify-content: center ;
+    margin-top: 2rem;
+    
+}
+
+.logo-img {
+    width: 300px;
+}
+
+.redes img {
+    margin: 1rem;
+    
+}
+
+.redes img:hover{
+    opacity: 0.5;
+
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    height: 20vh;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin-right: 1rem;
+    opacity: 0.5;
+    color: black;
+    cursor:pointer;
+}
+
+li:hover{
+    opacity:1;
+    
+}
+
+.box-slide {
+    background-image: url(img/628500.jpg);
+    width: 100%;
+    background-position: center;
+    height: 70vh;
+    background-size: cover;
+}
+
+.test {
+    display: flex;
+    justify-content: center;
+    height: 75vh;
+    align-items: flex-end;
+}
+.box-new {
+    background-color:white;
+    width: 30rem;
+    height: 11rem;
+    border-radius: 4px;
+}
+
+
+.new-subtitle {
+    display: flex;
+    justify-content: center;
+}
+
+.new-paragraph {
+    padding: 20px;
+
+}
+
+.lore-person{
+    display: flex;
+    margin-top: 8rem;
+}
+
+.img-lorem{
+    width: 50vw;
+    border-radius: 4px;
+}
+
+.subtitle-person{
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.paragraph-lorem{
+    width: 50vw;
+    padding: 111px;
+    border: solid 2px rgb(114, 134, 197);
+    border-radius: 4px;
+
+}
+
+img:hover {
+    cursor: pointer;
+}
