@@ -32,6 +32,17 @@
     align-items: center;
 }
 
+@media(max-width: 910px){
+    .container{
+    position: relative;
+    align-items: flex-end;
+}
+.logo-img{
+    position: absolute;
+    right: 29%;
+    bottom: 8%;
+}
+}
 ul{
     display: flex;
     list-style: none;
@@ -80,6 +91,9 @@ li:hover{
     padding: 20px;
 
 }
+.paragraph-lee{
+    font-size: 1.8vw;
+}
 
 .lore-person{
     display: flex;
@@ -100,10 +114,11 @@ li:hover{
 
 .paragraph-lorem{
     width: 50vw;
-    padding: 111px;
     border: solid 2px rgb(114, 134, 197);
     border-radius: 4px;
-
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 img:hover {
